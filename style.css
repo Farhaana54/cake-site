@@ -1,0 +1,82 @@
+#navbar-fix{
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.title{
+    margin-left: 30px;
+}
+.options{
+    padding-right: 40px;
+}
+.site-color{
+    background-color: rgb(71, 15, 30);
+}
+.site-text-color{
+    color:rgb(71, 15, 30);
+}
+.font-style{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.search-bar{
+    padding: 20px;
+    width: 600px;
+}
+.hover-effect:hover {
+    background-color: rgb(126, 122, 122);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.box-space{
+   padding: 50px;
+   margin-left: 80px;
+}
+.cake-img{
+    width: 600px;
+    height: 500px;
+    transform:rotate3d(90deg);
+}
+.menu-box-size{
+    width:300px;
+    height:500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.menu-image{
+    width: 280px;
+    height: 300px;
+}
+.review-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.order-align{
+    align-content: center;
+}
+
+.order-box {
+    background-image: url('https://3.bp.blogspot.com/-B1cEYtIwERI/UchGFNKMnCI/AAAAAAAAChs/AHarsDUGTJw/s1600/Cakes-Wallpapers-HD-28.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 650px;
+    padding-top: 30px;
+    padding-left:150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.order-box h1 {
+    background: rgba(212, 212, 212, 0.8); /* white background with some transparency */
+    padding: 5px;
+    border-radius:5;
+    width: fit-content;
+}
+.order-box input{
+    background: rgba(255, 255, 255, 0.8); /* white background with some transparency */
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
